@@ -1,0 +1,57 @@
+Feed this prompt to CoPilot along with the main.py code to adjust from last commit
+```
+Overview
+This code creates a web application using the NiceGUI library. The application is a Home Management System, which helps you manage various rooms in your home, including adding room details and relevant documents.
+
+Key Components
+Global Variables:
+
+rooms: A list that stores information about each room in the home.
+
+accordion_visible: A boolean variable used to track the visibility of the accordion-style navigation menu for rooms.
+
+Functions:
+
+create_room(room_name, room_description): Adds a new room to the rooms list and shows the updated list of rooms.
+
+refresh_rooms(): Refreshes and displays the list of rooms stored in the rooms list.
+
+add_document(room): Allows the user to add documents to a specific room via a dialog interface.
+
+update_header(page_name): Updates the header text to reflect the current page the user is on.
+
+show_dashboard(), show_rooms(), show_add_room_page(), show_settings(): Functions to display different pages of the application.
+
+toggle_accordion(): Toggles the visibility of the accordion-style navigation menu.
+
+render_navigation(): Renders the navigation menu based on the current state of accordion_visible.
+
+CSS Styling:
+
+The dark_mode_css variable contains CSS styles to apply a dark mode theme to the application. It includes styling for the body, rows, columns, buttons, labels, headers, and footers.
+
+Main Layout
+Header: Displays the current page name.
+
+Navigation Menu: Located on the left side, it includes buttons for navigating to different pages such as Dashboard, Rooms, Add Room (within an accordion), and Settings.
+
+Main Column: The main area where content for each page is displayed.
+
+Footer: A footer that spans the width of the application, displaying a simple text.
+
+Functionality
+Dashboard Page: Shows a label indicating that this is the Dashboard page.
+
+Rooms Page: Displays a list of rooms with their names and descriptions. It also includes a button to add new rooms.
+
+Add Room Page: A form with input fields for room name and description, allowing the user to create and add new rooms.
+
+Settings Page: Displays a label indicating that this is the Settings page.
+
+Accordion Navigation: The "Rooms" button in the navigation menu expands or collapses to reveal the "Add Room" option.
+
+Use Case
+This code is useful for someone who wants to manage various rooms in their home, keeping track of room details and associated documents. It provides an easy-to-use interface with a dark mode theme, ensuring the application is visually appealing and comfortable to use.
+
+Overall, the code effectively creates a home management system with a simple and intuitive user interface, leveraging NiceGUI to handle the web application's frontend elements.
+```
